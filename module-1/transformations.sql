@@ -9,6 +9,7 @@ CREATE OR REPLACE SCHEMA data;
 USE DATABASE wages_cpi;
 USE SCHEMA data;
 
+
 -- Creates a table tracking average annual wages and CPI for the USA, between 2012 and 2022
 CREATE OR REPLACE TABLE annual_wages_cpi_usa AS
 SELECT
